@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="anttweakbar\TwBar.cpp">
+      <Filter>AntTweakBar</Filter>
+    </ClCompile>
+    <ClCompile Include="anttweakbar\TwColors.cpp">
+      <Filter>AntTweakBar</Filter>
+    </ClCompile>
+    <ClCompile Include="anttweakbar\TwDirect3D9.cpp">
+      <Filter>AntTweakBar</Filter>
+    </ClCompile>
+    <ClCompile Include="anttweakbar\TwFonts.cpp">
+      <Filter>AntTweakBar</Filter>
+    </ClCompile>
+    <ClCompile Include="anttweakbar\TwMgr.cpp">
+      <Filter>AntTweakBar</Filter>
+    </ClCompile>
+    <ClCompile Include="anttweakbar\TwPrecomp.cpp">
+      <Filter>AntTweakBar</Filter>
+    </ClCompile>
+    <ClCompile Include="anttweakbar\TwEventWin.c">
+      <Filter>AntTweakBar</Filter>
+    </ClCompile>
+    <ClCompile Include="callbacks.cpp" />
+    <ClCompile Include="tw_custom.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SFAPI">
+      <UniqueIdentifier>{ae859a30-c4b5-4062-a21a-8bf64697e9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{f307ea3e-4a68-4617-a2e1-6308cd759c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\game">
+      <UniqueIdentifier>{d9fdd0cb-3d4f-4868-9a89-199e5cea05c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{43028e16-aaa8-40d8-965e-67d0cc8a7e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AntTweakBar">
+      <UniqueIdentifier>{06b051ae-aea7-4ad6-b914-b871a8d92f6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SFAPI\SAMPFUNCS.lib">
+      <Filter>SFAPI</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SFAPI\SAMPFUNCS_API.h">
+      <Filter>SFAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SFAPI\SFCLEO.h">
+      <Filter>SFAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SFAPI\SFGame.h">
+      <Filter>SFAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SFAPI\SFRakNet.h">
+      <Filter>SFAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SFAPI\SFRender.h">
+      <Filter>SFAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SFAPI\SFSAMP.h">
+      <Filter>SFAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\CBox.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\CMatrix.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\CMatrix_Pad.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\CQuat.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\CRect2D.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\CSphere.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\CVector.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\CVector2D.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\CVector4D.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.Buffer.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.FastHashMap.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.FastHashSet.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.Game.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.Game.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.HashMap.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.Map.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.MemAccess.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.MemAccess.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.Misc.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.Misc.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.Time.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SharedUtil.Time.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SString.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\SString.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\UTF8.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\WString.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\sdk\WString.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\C3DMarker.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\C3DMarkers.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CAERadioTrackManager.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CAnimBlendAssocGroup.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CAnimBlendAssociation.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CAnimBlendHierarchy.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CAnimBlendSequence.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CAnimBlendStaticAssociation.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CAnimBlock.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CAnimManager.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CAudioContainer.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CAudioEngine.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CAutomobile.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CBike.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CBmx.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CBoat.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CBuilding.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CCam.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CCamera.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CCarEnterExit.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CCarGenerator.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CCheckpoint.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CCheckpoints.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CCivilianPed.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CClock.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CColModel.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CColPoint.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CControllerConfigManager.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CCoronas.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CDamageManager.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CDoor.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CEntity.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CEvent.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CEventDamage.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CEventGroup.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CEventGunShot.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CEventList.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CExplosion.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CExplosionManager.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CFire.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CFireManager.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CFont.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CFx.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CFxManager.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CFxSystem.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CGame.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CGarage.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CGarages.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CHandlingEntry.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CHandlingManager.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CHud.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CKeyGen.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CMarker.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CMenuManager.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CModelInfo.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CMonsterTruck.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CObject.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\Common.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPad.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CParticle.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CParticleObject.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CParticleSystemManager.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPathFind.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPed.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPedDamageResponse.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPedDamageResponseCalculator.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPedIK.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPedIntelligence.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPedModelInfo.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPedSound.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPhysical.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPickup.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPickups.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPlane.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPlayerInfo.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPlayerPed.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPointLights.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPools.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CPopulation.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CProjectile.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CProjectileInfo.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CQuadBike.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CRadar.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CRegisteredCorona.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CRemote.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CRenderWare.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CRestart.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CRopes.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CSettings.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CStats.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CStreaming.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CTaskManagementSystem.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CTaskManager.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CTasks.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CText.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CTheCarGenerators.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CTrailer.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CVehicle.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CVehicleScanner.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CVisibilityPlugins.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CWanted.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CWater.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CWaterManager.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CWeapon.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CWeaponInfo.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CWeaponStat.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CWeaponStatManager.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CWeather.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\CWorld.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\RenderWare.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\Task.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\TaskAttack.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\TaskBasic.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\TaskCar.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\TaskCarAccessories.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\TaskGoTo.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\TaskIK.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\TaskJumpFall.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\TaskPhysicalResponse.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\TaskSecondary.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game\TaskTypes.h">
+      <Filter>game\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_api\game_api.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="AntTweakBar.h" />
+    <ClInclude Include="anttweakbar\TwPrecomp.h">
+      <Filter>AntTweakBar</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks.h" />
+    <ClInclude Include="tw_custom.h" />
+  </ItemGroup>
+</Project>
